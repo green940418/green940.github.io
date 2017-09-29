@@ -3,12 +3,17 @@
   <head>
       <title>Welcome to My Greenhouse</title>
   <style>
-  body{background-image:url();}
-  
+  body{background-image:url(leaf.jpg);}
+  #header{width:100%;height:100px;}
+  #content{width:70%;height:500px;}
+  #footer{width:100%;height:50px;}
   </style>
   </head>
   <body>
-    
-  
+    <div>
+      <div id="header">header</div>
+      <div id="content">content</div>
+      <div id="footer">footer</div>
+    </div>
   </body>
 </html>
